@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="walter.jpg" />
+
+    <script defer src="app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      Proyecto de Registro (DNI) de Carla Calatayud.
+    </header>
+    <section class="cam-container">
+            <div class="video-wrap">
+                <video class="video"></video>
+            </div>
+            <!--
+              <div class="canvas-wrap">
+                  <canvas class="canvas" width="340" height="340">
+                    <img
+                      src=""
+                      class="photo"
+                      alt="photo"
+                    />
+                  </canvas>
+            </div>
+            -->
+            <div>
+                <button class="start-btn">PHOTO</button>
+            </div>
+    </section>
+    <div id="impresion">
+          <div class="contenedor1">
+                <div class="divisor">
+                  <div class="canvas-wrap">
+                    <canvas class="canvas" width="300" height="300">
+                      <img
+                        src=""
+                        class="photo"
+                        alt="photo"
+                      />
+                    </canvas>
+                  </div>
+              <!--
+                  <img id="walter" alt="foto" src="">
+                      <input type="file" id="foto">
+                      <label for="foto" id="etiquetaBoton">cambiar Foto</label>
+                */-->
+                </div>
+            <div id="cuadro2">
+                  <div class="divisor">
+                      APELLIDOS:
+                      <div>
+                          <input type="text" id="apellido" class="text" placeholder="ingrese apellido">
+                      </div>
+                  </div>
+                  <div class="divisor">
+                      NOMBRES:
+                      <div>
+                        <input type="text" id="nombre" class="text" placeholder="ingrese Nombre">
+                      </div>
+                  </div>
+                  <div class="divisor">
+                    NRO TRAMITE
+                      <div>
+                        <input type="text" id="tramite" class="text" placeholder="nro Tramite" >
+                        <button onclick="miTramite()">Tramite y DNI</button>
+                      </div>
+                  </div>
+                  <div class="divisor">
+                      DNI:
+                      <div>
+                        <input type="text" id="dni" class="text" placeholder="ingrese Nro de DNI">
+                       <!-- <button>DNI</button>-->
+                      </div>
+                  </div>
+            </div>
+            
+          </div>
+
+          <div class="contenedor2">
+                  <div class="divisor">
+                      <p>Documento Nacional de Identidad @Republica Argentina- Jardin 911.......... 
+                        <button onclick="javascript:imprimirCuadro(impresion);">IMPRIMIR</button>
+                      </p>
+                      <!--
+                      <input type="button" value="Imprimir" onclick="javascript:imprimirCuadro(impresion);">
+                    -->
+                      
+                  </div>
+          </div>
+          <div id="constancia">
+
+          </div>
+          
+    </div>
+  </body>
+</html>

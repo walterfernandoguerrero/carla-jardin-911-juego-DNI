@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+html{
+    background: linear-gradient(rgb(207, 207, 207), rgb(254, 254, 254));
+
+}
+
+section{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 95vh;
+    gap: 20px;
+}
+
+button{
+
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border: none;
+    background-color: transparent;
+    color: rgb(237, 121, 13);
+    font-weight: bold;
+    font-size: 0.85rem;
+    cursor:pointer;
+    outline: solid 2px rgb(237, 121, 13);
+}
+button:hover{
+
+    background-color: rgb(237, 121, 13);
+    color: aliceblue;
+}
+
+header{
+    height: 5vh;
+    background-color: rgb(237, 121, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+        color: aliceblue;
+
+
+}
+
+video{
+    border: solid 1px rgb(237, 121, 13);
+    border-radius: 10px;
+}
+canvas{
+    border: solid 1px rgb(237, 121, 13);
+    border-radius: 10px;
+}
+/*cambio de estilos */
+.contenedor1{
+    margin: 2%;
+    display: grid;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: 3fr 3fr;
+    grid-gap: 4px;
+}
+.contenedor2{
+    margin: 2%;
+    
+}
+.divisor{
+    padding: 3%;
+    background-color: aqua;
+    border-radius: 6px;
+    border: black 2px solid;
+}
+#cuadro2{
+    display: grid;
+    grid-template-columns: 7fr;
+    grid-gap: 4px;
+}
+#foto{
+    display: none;
+}
+#etiquetaBoton{
+    background: #1f5f74;
+    color: white;
+    padding: 5px 17px ;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#walter{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+input.text, select.text, textarea.text {
+    width: 75%;
+    background: silver;
+    border: 1px solid #393939;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 13px;
+    padding: 15px;
+ }
