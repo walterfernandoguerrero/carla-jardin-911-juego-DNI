@@ -15,12 +15,10 @@ section{
     align-items: center;
     justify-content: center;
     width: 80%;
-    height: 95vh;
+    height: 60vh;
     gap: 20px;
 }
-
 button{
-
     border-radius: 50px;
     width: 70px;
     height: 70px;
@@ -37,6 +35,10 @@ button:hover{
     background-color: rgb(237, 121, 13);
     color: aliceblue;
 }
+#boton button{
+    margin-left: 50%;
+}
+
 
 header{
     height: 5vh;
@@ -76,6 +78,10 @@ canvas{
     border-radius: 6px;
     border: black 2px solid;
 }
+.divisor input{
+    text-transform: uppercase;
+}
+
 #cuadro2{
     display: grid;
     grid-template-columns: 7fr;
