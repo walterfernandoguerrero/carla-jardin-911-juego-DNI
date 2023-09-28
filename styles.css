@@ -105,3 +105,12 @@ input.text, select.text, textarea.text {
     font-size: 13px;
     padding: 15px;
  }
+ @media (max-width: 600px){
+    .contenedor1{
+        margin: 2%;
+        display: grid;
+        /*grid-template-columns: repeat(3, 1fr);*/
+        grid-template-columns: 6fr;
+        grid-gap: 4px;
+    }
+ }
